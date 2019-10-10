@@ -6,7 +6,14 @@ namespace Open_Lab_01._3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string a = Console.ReadLine();
+            int b = Convert.ToInt32(a);
+            int c = b+1;
+            Console.WriteLine(c);
+
+
+
+
         }
     }
 }
